@@ -11,3 +11,77 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+form{
+  display: grid;
+  margin: auto;
+  margin-top: 10%;
+  width: 30%;
+  gap: 5px;
+}
+
+.header{
+  margin-top: 1%;
+  display: flex;
+  justify-content: space-between;
+}
+
+input,select{
+  padding: 5px;
+  border-radius: 5px;
+  background-color:azure;
+  text-decoration-color: black;
+}
+
+.header a{
+  text-decoration: none;
+  color: black;
+}
+.navbar{
+  display: flex;
+  gap: 20px;
+}
+
+form button{
+  width: 30%;
+  margin: auto;
+  margin-top: 20px;
+  background-color: black;
+  color: aliceblue;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.about{
+  margin: auto;
+}
+
+select{
+  gap: 10px;
+}
+
+h2{
+  text-align: center;
+}
+
+table {
+  border: 2px solid forestgreen;
+  width: 800px;
+  height: 200px;
+}
+
+th {
+  border-bottom: 1px solid black;
+}
+
+td {
+  text-align: center;
+}
+
+.table{
+  width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
